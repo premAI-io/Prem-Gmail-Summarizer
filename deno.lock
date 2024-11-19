@@ -1,0 +1,157 @@
+{
+  "version": "4",
+  "specifiers": {
+    "npm:@premai/prem-sdk@*": "0.3.76",
+    "npm:@slack/web-api@*": "7.7.0"
+  },
+  "npm": {
+    "@premai/prem-sdk@0.3.76": {
+      "integrity": "sha512-6zvaWGKgWI/ZN81zte/kMBR2fw5oCwLEGlPXCHhSTdgpDaGUonBepCpLiP9499wvWGYOpbU178lr9ZGbSDK4UA==",
+      "dependencies": [
+        "axios",
+        "form-data"
+      ]
+    },
+    "@slack/logger@4.0.0": {
+      "integrity": "sha512-Wz7QYfPAlG/DR+DfABddUZeNgoeY7d1J39OCR2jR+v7VBsB8ezulDK5szTnDDPDwLH5IWhLvXIHlCFZV7MSKgA==",
+      "dependencies": [
+        "@types/node"
+      ]
+    },
+    "@slack/types@2.14.0": {
+      "integrity": "sha512-n0EGm7ENQRxlXbgKSrQZL69grzg1gHLAVd+GlRVQJ1NSORo0FrApR7wql/gaKdu2n4TO83Sq/AmeUOqD60aXUA=="
+    },
+    "@slack/web-api@7.7.0": {
+      "integrity": "sha512-DtRyjgQi0mObA2uC6H8nL2OhAISKDhvtOXgRjGRBnBhiaWb6df5vPmKHsOHjpweYALBMHtiqE5ajZFkDW/ag8Q==",
+      "dependencies": [
+        "@slack/logger",
+        "@slack/types",
+        "@types/node",
+        "@types/retry",
+        "axios",
+        "eventemitter3@5.0.1",
+        "form-data",
+        "is-electron",
+        "is-stream",
+        "p-queue",
+        "p-retry",
+        "retry"
+      ]
+    },
+    "@types/node@22.9.0": {
+      "integrity": "sha512-vuyHg81vvWA1Z1ELfvLko2c8f34gyA0zaic0+Rllc5lbCnbSyuvb2Oxpm6TAUAC/2xZN3QGqxBNggD1nNR2AfQ==",
+      "dependencies": [
+        "undici-types"
+      ]
+    },
+    "@types/retry@0.12.0": {
+      "integrity": "sha512-wWKOClTTiizcZhXnPY4wikVAwmdYHp8q6DmC+EJUzAMsycb7HB32Kh9RN4+0gExjmPmZSAQjgURXIGATPegAvA=="
+    },
+    "asynckit@0.4.0": {
+      "integrity": "sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q=="
+    },
+    "axios@1.7.7": {
+      "integrity": "sha512-S4kL7XrjgBmvdGut0sN3yJxqYzrDOnivkBiN0OFs6hLiUam3UPvswUo0kqGyhqUZGEOytHyumEdXsAkgCOUf3Q==",
+      "dependencies": [
+        "follow-redirects",
+        "form-data",
+        "proxy-from-env"
+      ]
+    },
+    "combined-stream@1.0.8": {
+      "integrity": "sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==",
+      "dependencies": [
+        "delayed-stream"
+      ]
+    },
+    "delayed-stream@1.0.0": {
+      "integrity": "sha512-ZySD7Nf91aLB0RxL4KGrKHBXl7Eds1DAmEdcoVawXnLD7SDhpNgtuII2aAkg7a7QS41jxPSZ17p4VdGnMHk3MQ=="
+    },
+    "eventemitter3@4.0.7": {
+      "integrity": "sha512-8guHBZCwKnFhYdHr2ysuRWErTwhoN2X8XELRlrRwpmfeY2jjuUN4taQMsULKUVo1K4DvZl+0pgfyoysHxvmvEw=="
+    },
+    "eventemitter3@5.0.1": {
+      "integrity": "sha512-GWkBvjiSZK87ELrYOSESUYeVIc9mvLLf/nXalMOS5dYrgZq9o5OVkbZAVM06CVxYsCwH9BDZFPlQTlPA1j4ahA=="
+    },
+    "follow-redirects@1.15.9": {
+      "integrity": "sha512-gew4GsXizNgdoRyqmyfMHyAmXsZDk6mHkSxZFCzW9gwlbtOW44CDtYavM+y+72qD/Vq2l550kMF52DT8fOLJqQ=="
+    },
+    "form-data@4.0.1": {
+      "integrity": "sha512-tzN8e4TX8+kkxGPK8D5u0FNmjPUjw3lwC9lSLxxoB/+GtsJG91CO8bSWy73APlgAZzZbXEYZJuxjkHH2w+Ezhw==",
+      "dependencies": [
+        "asynckit",
+        "combined-stream",
+        "mime-types"
+      ]
+    },
+    "is-electron@2.2.2": {
+      "integrity": "sha512-FO/Rhvz5tuw4MCWkpMzHFKWD2LsfHzIb7i6MdPYZ/KW7AlxawyLkqdy+jPZP1WubqEADE3O4FUENlJHDfQASRg=="
+    },
+    "is-stream@2.0.1": {
+      "integrity": "sha512-hFoiJiTl63nn+kstHGBtewWSKnQLpyb155KHheA1l39uvtO9nWIop1p3udqPcUd/xbF1VLMO4n7OI6p7RbngDg=="
+    },
+    "mime-db@1.52.0": {
+      "integrity": "sha512-sPU4uV7dYlvtWJxwwxHD0PuihVNiE7TyAbQ5SWxDCB9mUYvOgroQOwYQQOKPJ8CIbE+1ETVlOoK1UC2nU3gYvg=="
+    },
+    "mime-types@2.1.35": {
+      "integrity": "sha512-ZDY+bPm5zTTF+YpCrAU9nK0UgICYPT0QtT1NZWFv4s++TNkcgVaT0g6+4R2uI4MjQjzysHB1zxuWL50hzaeXiw==",
+      "dependencies": [
+        "mime-db"
+      ]
+    },
+    "p-finally@1.0.0": {
+      "integrity": "sha512-LICb2p9CB7FS+0eR1oqWnHhp0FljGLZCWBE9aix0Uye9W8LTQPwMTYVGWQWIw9RdQiDg4+epXQODwIYJtSJaow=="
+    },
+    "p-queue@6.6.2": {
+      "integrity": "sha512-RwFpb72c/BhQLEXIZ5K2e+AhgNVmIejGlTgiB9MzZ0e93GRvqZ7uSi0dvRF7/XIXDeNkra2fNHBxTyPDGySpjQ==",
+      "dependencies": [
+        "eventemitter3@4.0.7",
+        "p-timeout"
+      ]
+    },
+    "p-retry@4.6.2": {
+      "integrity": "sha512-312Id396EbJdvRONlngUx0NydfrIQ5lsYu0znKVUzVvArzEIt08V1qhtyESbGVd1FGX7UKtiFp5uwKZdM8wIuQ==",
+      "dependencies": [
+        "@types/retry",
+        "retry"
+      ]
+    },
+    "p-timeout@3.2.0": {
+      "integrity": "sha512-rhIwUycgwwKcP9yTOOFK/AKsAopjjCakVqLHePO3CC6Mir1Z99xT+R63jZxAT5lFZLa2inS5h+ZS2GvR99/FBg==",
+      "dependencies": [
+        "p-finally"
+      ]
+    },
+    "proxy-from-env@1.1.0": {
+      "integrity": "sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg=="
+    },
+    "retry@0.13.1": {
+      "integrity": "sha512-XQBQ3I8W1Cge0Seh+6gjj03LbmRFWuoszgK9ooCpwYIrhhoO80pfq4cUkU5DkknwfOfFteRwlZ56PYOGYyFWdg=="
+    },
+    "undici-types@6.19.8": {
+      "integrity": "sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw=="
+    }
+  },
+  "redirects": {
+    "https://deno.land/x/oauth2_client/mod.ts": "https://deno.land/x/oauth2_client@v1.0.2/mod.ts"
+  },
+  "remote": {
+    "https://deno.land/std@0.161.0/encoding/base64.ts": "c57868ca7fa2fbe919f57f88a623ad34e3d970d675bdc1ff3a9d02bba7409db2",
+    "https://deno.land/x/oauth2_client@v1.0.2/mod.ts": "ea54c0a894d3303a80552ca65835b5b104d16415343b24e191f08e7f5db90ff7",
+    "https://deno.land/x/oauth2_client@v1.0.2/src/authorization_code_grant.ts": "36953750b75fb0a14fbf4e0e4bcc1d5ae0209d216d7b32f93a134b035ecf3d25",
+    "https://deno.land/x/oauth2_client@v1.0.2/src/client_credentials_grant.ts": "5bb9869925c5f5d11e8d66a86da37e2353107d57f57ec3a1480e197462e79be5",
+    "https://deno.land/x/oauth2_client@v1.0.2/src/errors.ts": "7603479b80386b5cc7e384c2af5f5262ed7c2123e4e297d9f21e95515f8a803a",
+    "https://deno.land/x/oauth2_client@v1.0.2/src/grant_base.ts": "86ae9eb3495f2304a634498fbb83741c5dc0e1357e02c40e12e212de5e9750f7",
+    "https://deno.land/x/oauth2_client@v1.0.2/src/implicit_grant.ts": "d5359aebbdaaff039c0d078890aa4ffa2869da19c521e535e15caf09c069e6b8",
+    "https://deno.land/x/oauth2_client@v1.0.2/src/oauth2_client.ts": "4e5ec26676661a3f69544826a4c27b30cc07dfcfc77f86981c324aaa53291a11",
+    "https://deno.land/x/oauth2_client@v1.0.2/src/pkce.ts": "d286a087cc8ef985b71a2bf391e9e9d86a78ac6d93e30c46e73006171aed0986",
+    "https://deno.land/x/oauth2_client@v1.0.2/src/refresh_token_grant.ts": "22cb1598e48fb037b4111a446573f7b48a3b361b58de58af17ba097221b12b54",
+    "https://deno.land/x/oauth2_client@v1.0.2/src/resource_owner_password_credentials.ts": "bd3df99d32eeebffb411c4a2d3c3d057395515fb41690a8d91460dd74b9bf466",
+    "https://deno.land/x/oauth2_client@v1.0.2/src/types.ts": "3327c2e81bc483e91843fb103595dd304393c3ac2a530d1c89200b6a5cf75e13"
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@std/assert@1"
+    ]
+  }
+}
