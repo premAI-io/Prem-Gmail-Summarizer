@@ -3,7 +3,7 @@ import { GmailService } from "./gmail_service.ts";
 
 
 const apiKey = Deno.env.get("PREMAI_API_KEY");
-if (!apiKey) throw new Error("PREMAI_API_KEY is required");
+if (!apiKey) throw new Error("PREMAI_API_KEY is required")
 
 const client = new Prem({
   apiKey: apiKey,

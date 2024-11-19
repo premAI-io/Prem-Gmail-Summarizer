@@ -10,3 +10,9 @@ Slack integration coming soon.⏰
 - Prem API key
 - Google OAuth2 credentials
 - Gmail access token
+
+## Installation
+
+```bash
+deno run --allow-env --env main.ts
+```
